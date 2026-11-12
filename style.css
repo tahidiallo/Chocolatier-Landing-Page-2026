@@ -56,6 +56,7 @@ nav ul a {
 
 .action-button-nav:hover {
     text-decoration: underline;
+    color: #AD7B46;
 }
 
 .action-button {
@@ -164,11 +165,13 @@ footer {
 
 .action-button-footer:hover {
     text-decoration: underline;
+    color: #AD7B46;
 }
 
 .contact{
     display: flex;
     flex-direction: column;
+    line-height: 2;
     
 }
 
@@ -176,8 +179,12 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+    font-size: 30px;
+    a{
+        color:#93591b ;
 }
-   
+}  
 .container {
     margin: auto;
     max-width: 1000px;
@@ -198,9 +205,12 @@ footer {
     text-align: center;
     h3{
         font-family: "Marcellus SC", serif;
-        line-height: 4;
+        line-height: 3;
     }
     padding: 0 40px 70px 40px;
+    p{
+        padding-top: 10px;
+    }
 }
 
 #bestsellers{
@@ -245,4 +255,3 @@ footer {
     align-items: center;
     gap: 10px
 }
-
