@@ -5,14 +5,15 @@
 }
 
 .marcellus-sc-regular {
-  font-family: "Marcellus SC", serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Marcellus SC", serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
 .marcellus-regular {
-  
-  font-weight: 400;
-  font-style: normal;
+
+    font-weight: 400;
+    font-style: normal;
 }
 
 header {
@@ -24,6 +25,9 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px 10px 50px;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }
 
 .logo {
@@ -34,14 +38,13 @@ header {
     justify-content: center;
 }
 
-ul {
+nav ul {
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
     gap: 40px;
     padding: 0px;
     font-weight: bolder;
-    font-family: ;
 }
 
 nav ul a {
@@ -54,13 +57,16 @@ nav ul a {
     background-size: cover;
     height: 110vh;
     color: white;
+    text-align: center;
+    padding: 250px 0 0;
 }
 
 .action-button-nav {
     color: #44200C;
     text-decoration: none;
 }
-.action-button-nav:hover{
+
+.action-button-nav:hover {
     text-decoration: underline;
 }
 
@@ -72,22 +78,102 @@ nav ul a {
     padding: 5px 10px;
     border: transparent;
 }
-.action-button:hover{
+
+.action-button:hover {
     text-decoration: underline;
 }
 
-.container{
-    text-align: center;
-    padding: 250px 0 0;
-}
-
-h1{
+h1 {
     font-size: 55px;
 }
 
-h1+p{
+h1+p {
     font-size: 35px;
     padding: 0px 0 20px 0;
 }
 
+.promesses {
+    text-align: center;
+    padding: 50px 0 75px 0;
 
+    h2 {
+        font-family: "Marcellus SC", serif;
+        color: #AD7B46;
+        font-size: 35px;
+        line-height: 3;
+    }
+
+    p {
+        line-height: 1.5;
+    }
+}
+
+.services {
+    background-color: #F0D8BF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+.carte{
+width: 230px;;
+height: 300px;
+padding: 0 50px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+text-decoration: none;
+}
+
+.carte h3{
+    font-family: "Marcellus SC", serif;
+    line-height: 4;
+}
+
+.carte p {
+    font-family: "Marcellus SC", serif;
+    text-align: justify;
+
+}
+
+.carte1 {
+    background-color:#AD7B46;
+    color: white;
+}
+
+.carte2 {
+    background-color: #44200C;
+    color: white;
+}
+
+.carte3 {
+    background-color: #C9A980;
+    color: black;
+}
+
+.carte:hover{
+    text-decoration:solid;
+}
+footer {
+    background-color: #d7ac84;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-footer {
+    width: 100px;
+    height: 100px;
+}
+
+footer ul li {
+    text-decoration: none;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    gap: 40px;
+    padding: 0px;
+    font-weight: bolder;
+}
