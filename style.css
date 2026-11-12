@@ -173,7 +173,7 @@ footer ul li {
         color: #AD7B46;
         font-size: 35px;
         line-height: 3; 
-        padding-top: 30px;
+        padding-top: 20px;
     }
 }
 
@@ -186,6 +186,40 @@ footer ul li {
         font-family: "Marcellus SC", serif;
         line-height: 4;
     }
-    gap: 40px;
     padding: 0 40px 70px 40px;
+}
+
+#bestsellers{
+    background-color: #F0D8BF;
+    padding-bottom: 70px;
+    h2{
+        font-family: "Marcellus SC", serif;
+        color: #44200C;
+        font-size: 35px;
+        line-height: 3; 
+        text-align: center;
+    }
+    img{
+        width: 280px;
+        height: 280px;
+        object-fit: cover;
+    }
+    a{
+        width: 300px;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: #44200C;
+        h3{
+            font-family: "Marcellus SC", serif;
+            line-height: 3;
+        }
+}
+}
+
+.produits{
+    display: flex;
+    flex: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
